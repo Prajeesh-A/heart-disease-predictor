@@ -88,11 +88,10 @@ import time
 
 # predict button
 if st.button("Predict"):
-    with st.spinner("Your almost dying 🤣🤣..."):
+    with st.spinner("Please Wait 😊..."):
         time.sleep(3)
     if prediction[0] == 1:
-        st.error("Died 💔💔")
-        st.balloons()
+        st.error("Prediction: Heart Disease")
     else:
         st.success("Prediction: No Heart Disease")
         
